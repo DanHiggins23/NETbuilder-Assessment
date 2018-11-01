@@ -11,6 +11,7 @@ public class converter {
         userInput = userInput.toLowerCase();
 
         for (int count = 0; count <= (userInput.length() - 1); count++) {
+            // Convert each character into ascii code to calculate alphabet position
             int charCode = Character.codePointAt(userInput, count);
 
             // Ensures that only letters a-z are allowed
