@@ -16,7 +16,7 @@ public class converter {
 
             // Ensures that only letters a-z are allowed
             if (charCode > 97 && charCode < 122) {
-                // Ascii code for a starts at 97, so minus 1 to get the alphabet position
+                // Ascii code for a starts at 97, so minus 96 to get the alphabet position
                 charCode = charCode - 96;
                 output = output + String.valueOf(charCode) + " ";
             }
